@@ -36,7 +36,7 @@ guessBtn.addEventListener('click', function () {
     } else {
       guessesleft -= 1;
       if (guessesleft === 0) {
-        setMessage('You Lost!!!', 'red');
+        setMessage(`You Lost!!! Actual number is ${winningNum} `, 'red');
         guessBtn.disabled = true;
         guessInput.disabled = true;
         guessBtn.className = 'play-again';
