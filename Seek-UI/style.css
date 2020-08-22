@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+body {
+  height: 150vh;
+}
+.section-parent {
+  padding: 40px 50px;
+  background-color: #0d3880;
+}
+.section-content {
+  width: 66%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section-firstHalf {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  padding: 2px;
+}
+.section-firstHalf h4:nth-of-type(2) {
+  margin-left: 53%;
+}
+
+.section-secondHalf {
+  display: flex;
+  justify-content: space-between;
+}
+.section-secondHalf input {
+  width: 300px;
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.section-secondHalf input:nth-of-type(2) {
+  margin-left: 3px;
+}
+.section-secondHalf input:nth-of-type(3) {
+  margin-left: 7px;
+}
+.section-secondHalf button {
+  outline: none;
+  padding: 13px 40px;
+  margin-left: 10px;
+  background-color: #e60278;
+  color: white;
+  font-size: 18px;
+}
+.section-thirdHalf {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.options-parent {
+  background-color: #eeeeee;
+}
+
+.options {
+  width: 66%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.options h4:nth-of-type(1) {
+  background-color: #0d3880;
+  padding: 15px 110px;
+  color: white;
+  margin-left: 30px;
+}
+.options h4:nth-of-type(2) {
+  /* padding-right: 200px; */
+  font-size: 18px;
+  margin-left: 220px;
+}
+.options h4:nth-of-type(3) {
+  /* padding-right: 200px; */
+  font-size: 18px;
+  margin-left: 220px;
+}
+.branding-parent {
+  padding: 10px;
+}
+
+.branding-header {
+  display: flex;
+  width: 66%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.logo {
+  fill: #0d3880;
+  transform: scale(0.7);
+}
+.login-url {
+  display: flex;
+  align-self: center;
+  padding: 0 50px;
+}
+.login-url div {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.login-url hr {
+  height: 20px;
+}
+
+.upper-parent {
+  background-color: #eeeeee;
+  padding: 6px;
+}
+.upper-header {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.firstSet {
+  padding-right: 250px;
+}
+.firstSet a {
+  padding: 0 10px;
+}
+.secondSet a {
+  padding: 0 2px;
+}
